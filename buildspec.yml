@@ -1,0 +1,10 @@
+
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - npm install
+  build:
+    commands:
+      - ./node_modules/.bin/jasmine
